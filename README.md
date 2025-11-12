@@ -1,34 +1,13 @@
-
-# 🧩 Praktikum 7: PHP Dasar  
-**Nama:** _(isi namamu)_  
-**NIM:** _(isi NIM-mu)_  
-**Kelas:** _(isi kelasmu)_  
-
----
-
-## 🎯 Tujuan
-1. Memahami konsep dasar *Server Side Scripting*.  
-2. Memahami dasar pemrograman PHP.  
-3. Memahami variabel dan tipe data pada PHP.  
-4. Memahami struktur kondisi dan perulangan dalam PHP.  
-5. Mampu membuat program PHP sederhana.
+# Praktikum 7: PHP Dasar  
+**Nama:** Manuel Johansen Dolok Saribu  
+**NIM:** 312410493  
+**Kelas:** Ti.24.A5  
 
 ---
 
-## 🧰 Persiapan
-1. Instal dan jalankan **XAMPP**.  
-2. Pastikan modul **Apache** aktif.  
-3. Buat folder baru di direktori:
-   ```
-   xampp/htdocs/lab7_php_dasar/
-   ```
-4. Gunakan **VSCode** atau text editor lainnya untuk menulis kode PHP.
+## Langkah-langkah Praktikum
 
----
-
-## 🧪 Langkah-langkah Praktikum
-
-### 1️⃣ Membuat File Pertama `php_dasar.php`
+### Membuat File Pertama `php_dasar.php`
 ```php
 <!DOCTYPE html>
 <html>
@@ -43,11 +22,10 @@
 </body>
 </html>
 ```
-**Hasil:** Menampilkan tulisan **“Hello World”** di browser.
 
 ---
 
-### 2️⃣ Variabel PHP
+### Variabel PHP
 ```php
 <?php
 $nim = "0411500400";
@@ -60,7 +38,7 @@ echo "Nama : $nama";
 
 ---
 
-### 3️⃣ Form Input dan `$_POST`
+### Form Input dan `$_POST`
 ```php
 <!DOCTYPE html>
 <html>
@@ -83,7 +61,7 @@ echo 'Selamat Datang ' . $_POST['nama'];
 
 ---
 
-### 4️⃣ Operator dan Struktur Kondisi
+### Operator dan Struktur Kondisi
 ```php
 <?php
 $gaji = 1000000;
@@ -109,7 +87,7 @@ if ($nama_hari == "Sunday") {
 
 ---
 
-### 5️⃣ Perulangan
+### Perulangan
 ```php
 <?php
 for ($i=1; $i<=5; $i++) {
@@ -121,7 +99,7 @@ for ($i=1; $i<=5; $i++) {
 
 ---
 
-### 6️⃣ Tugas: Program PHP Sederhana
+### Tugas: Program PHP Sederhana
 ```php
 <!DOCTYPE html>
 <html lang="id">
@@ -188,18 +166,3 @@ for ($i=1; $i<=5; $i++) {
 - Menampilkan hasil di bawah form.
 
 ---
-
-## 📸 Dokumentasi
-Tambahkan screenshot hasil tampilan di browser untuk setiap langkah:
-1. Tampilan “Hello World”  
-2. Tampilan Form Input  
-3. Tampilan Hasil Data Diri (Nama, Umur, Gaji)
-
----
-
-## 🧾 Penutup
-Dari praktikum ini, mahasiswa dapat memahami dasar PHP seperti:
-- Penggunaan variabel dan form input.  
-- Struktur kondisi dan perulangan.  
-- Pengolahan data dengan `$_POST`.  
-- Membuat aplikasi web sederhana berbasis PHP.
